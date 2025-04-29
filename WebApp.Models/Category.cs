@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace WebAppASP.Models{
+namespace WebApp.Models{
     public class Category{
         [Key]
         public int Id { get; set; }

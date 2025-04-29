@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using WebAppASP.Models;
+using WebApp.Models;
 
-namespace WebAppASP.Data{
+namespace WebApp.DataAccess.Data{
     public class ApplicationDbContext : DbContext {
 		public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options){
 			
@@ -18,6 +18,5 @@ namespace WebAppASP.Data{
           );
           
         }
-
     }
 }
