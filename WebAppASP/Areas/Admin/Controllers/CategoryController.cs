@@ -3,7 +3,8 @@ using WebApp.Models;
 using WebApp.DataAccess.Data;
 using WebApp.DataAccess.Repository.Irepository;
 
-namespace WebAppASP.Controllers{
+namespace WebAppASP.Areas.Admin.Controllers{
+    [Area("Admin")]
     public class CategoryController : Controller{
         
         private readonly IUnitOfWork _unitOfWork;

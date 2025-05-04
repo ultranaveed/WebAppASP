@@ -1,6 +1,0 @@
-<Solution>
-  <Project Path="WebApp.DataAccess/WebApp.DataAccess.csproj" />
-  <Project Path="WebApp.Models/WebApp.Models.csproj" />
-  <Project Path="WebApp.Utility/WebApp.Utility.csproj" />
-  <Project Path="WebAppASP/WebAppASP.csproj" />
-</Solution>

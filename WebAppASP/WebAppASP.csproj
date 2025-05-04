@@ -22,4 +22,8 @@
     <ProjectReference Include="..\WebApp.Utility\WebApp.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
