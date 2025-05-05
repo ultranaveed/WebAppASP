@@ -4,10 +4,13 @@ using WebApp.DataAccess.Data;
 using WebApp.DataAccess.Repository.Irepository;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using WebApp.Models.ViewModels;
+using Microsoft.AspNetCore.Authorization;
+using WebApp.Utility;
 
 namespace WebAppASP.Areas.Admin.Controllers{
     [Area("Admin")]
-    public class ProductController : Controller{
+	[Authorize(Roles = SD.Role_Admin)]
+	public class ProductController : Controller{
         
         private readonly IUnitOfWork _unitOfWork;
         private readonly IWebHostEnvironment _webHostEnvironment;
